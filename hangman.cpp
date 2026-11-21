@@ -5,7 +5,7 @@
 #include <cctype>    // isalpha(), tolower()
 using namespace std;
 
-// Draws the hangman. The figure has 6 stages, so we convert
+// Draws the hangman
 // the mistakes into a stage from 0 to 6, whatever the max lives are.
 void drawHangman(int wrongCount, int maxLives) {
     int stage = (wrongCount * 6 + maxLives - 1) / maxLives;
