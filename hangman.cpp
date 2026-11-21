@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
-#include <cstdlib>   // rand(), srand()
-#include <ctime>     // time()
-#include <cctype>    // isalpha(), tolower()
+#include <cstdlib>  
+#include <ctime>    
+#include <cctype>    
 using namespace std;
 
 // Draws the hangman
